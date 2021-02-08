@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <title>Panel Login</title>
   <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo base_url(); ?>assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -26,13 +26,13 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="assets/dist/css/signin.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/dist/css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
 
 <main class="form-signin">
   <form>
-    <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+    <img class="mb-4" src="<?php echo base_url(); ?>assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Panel Login</h1>
     <label for="inputEmail" class="visually-hidden">Nomor Induk Pegawai (NIP)</label>
     <input type="nip" id="inputNip" class="form-control" placeholder="Nomor Induk Pegawai" required autofocus>
