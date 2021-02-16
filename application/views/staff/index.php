@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
   <h1 class="h2">Data staff</h1>
   <div class="btn-toolbar mb-2 mb-md-0">
-    <a href="<?php echo base_url().'staff/add' ?>" class="btn btn-primary btn-sm">Tambah data</a>
+    <a href="<?php echo base_url().'Staff/add' ?>" class="btn btn-primary btn-sm">Tambah data</a>
   </div>
 </div>
 
@@ -32,7 +32,7 @@
         <td>ipsum</td>
         <td>dolor</td>
         <td>sit</td>
-        <td> <a href="<?php echo base_url().'staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
+        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
       <tr>
         <td>1,002</td>
@@ -40,7 +40,7 @@
         <td>consectetur</td>
         <td>adipiscing</td>
         <td>elit</td>
-        <td> <a href="<?php echo base_url().'staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
+        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
       <tr>
         <td>1,003</td>
@@ -48,7 +48,7 @@
         <td>nec</td>
         <td>odio</td>
         <td>Praesent</td>
-        <td> <a href="<?php echo base_url().'staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
+        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
       <tr>
         <td>1,003</td>
@@ -56,7 +56,7 @@
         <td>Sed</td>
         <td>cursus</td>
         <td>ante</td>
-        <td> <a href="<?php echo base_url().'staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
+        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
 
     </tbody>
