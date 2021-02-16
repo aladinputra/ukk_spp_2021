@@ -41,7 +41,7 @@
 
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
-        <a class="nav-link" href="#">Sign out</a>
+        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#keluar"> Sign out</a>
       </li>
     </ul>
   </header>
@@ -101,7 +101,7 @@
               <li class="nav-item">
                 <a class="nav-link <?php if($this->uri->segment(1)=='Laporan'){ echo "active"; } ?>" href="<?php echo base_url().'Laporan' ?>">
                   <span data-feather="file-text"></span>
-                  Laporan Harian
+                  Laporan Hari ini
                 </a>
               </li>
             </ul>

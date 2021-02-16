@@ -31,7 +31,7 @@
   <body class="text-center">
 
 <main class="form-signin">
-  <form>
+  <form action="<?php echo base_url().'Welcome/login_cek' ?>" method="post">
     <img class="mb-4" src="<?php echo base_url(); ?>assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Panel Login</h1>
     <label for="inputEmail" class="visually-hidden">Nomor Induk Pegawai (NIP)</label>

@@ -17,4 +17,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('template/login.php');
 	}
+
+	function login_cek(){
+		redirect(base_url('Dashboard'));
+	}
+
+	function keluar(){
+		redirect(base_url('Welcome'));
+	}
 }

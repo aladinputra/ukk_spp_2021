@@ -11,7 +11,7 @@ class Jenis_pembayaran extends CI_Controller {
 			//redirect(base_url('Welcome/index'));
 			//return;
 		}
-      $data['title'] = 'Dashboard - Data jenis_pembayaran';
+      $data['title'] = 'Dashboard - Data Jenis Pembayaran';
   		$this->load->view('template/header.php',$data);
 	}
 

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Siswa extends CI_Controller {
+class Laporan extends CI_Controller {
 
 	public function __construct()
 	{
@@ -11,25 +11,14 @@ class Siswa extends CI_Controller {
 			//redirect(base_url('Welcome/index'));
 			//return;
 		}
-      $data['title'] = 'Dashboard - Siswa';
+      $data['title'] = 'Dashboard - Laporan';
   		$this->load->view('template/header.php',$data);
 	}
 
 	public function index()
 	{
-		$this->load->view('siswa/index.php');
+		$this->load->view('laporan/index.php');
   	$this->load->view('template/footer.php');
 	}
-
-  public function add()
-  {
-    $this->load->view('siswa/add.php');
-    $this->load->view('template/footer.php');
-  }
-
-  public function update()
-  {
-    $this->load->view('siswa/update.php');
-    $this->load->view('template/footer.php');
-  }
+  
 }

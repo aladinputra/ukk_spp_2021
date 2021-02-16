@@ -11,7 +11,7 @@ class Staff extends CI_Controller {
 			//redirect(base_url('Welcome/index'));
 			//return;
 		}
-      $data['title'] = 'Dashboard - Data Staff';
+      $data['title'] = 'Dashboard - Staff';
   		$this->load->view('template/header.php',$data);
 	}
 
