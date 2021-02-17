@@ -35,7 +35,7 @@
     <img class="mb-4" src="<?php echo base_url(); ?>assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Panel Login</h1>
     <label for="inputEmail" class="visually-hidden">Nomor Induk Pegawai (NIP)</label>
-    <input type="nip" id="inputNip" class="form-control" placeholder="Nomor Induk Pegawai" required autofocus>
+    <input type="nip" id="inputNip" class="form-control" placeholder="Nomor Induk Pegawai" required autofocus autocomplete="off">
     <label for="inputPassword" class="visually-hidden">Password</label>
     <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
     <div class="checkbox mb-3">
