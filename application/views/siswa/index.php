@@ -34,31 +34,7 @@
         <td>sit</td>
         <td> <a href="<?php echo base_url().'Siswa/update' ?>">Update</a> | <a href="<?php echo base_url().'Siswa/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
-      <tr>
-        <td>1,002</td>
-        <td>amet</td>
-        <td>consectetur</td>
-        <td>adipiscing</td>
-        <td>elit</td>
-        <td> <a href="<?php echo base_url().'Siswa/update' ?>">Update</a> | <a href="<?php echo base_url().'Siswa/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-      <tr>
-        <td>1,003</td>
-        <td>Integer</td>
-        <td>nec</td>
-        <td>odio</td>
-        <td>Praesent</td>
-        <td> <a href="<?php echo base_url().'Siswa/update' ?>">Update</a> | <a href="<?php echo base_url().'Siswa/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-      <tr>
-        <td>1,003</td>
-        <td>libero</td>
-        <td>Sed</td>
-        <td>cursus</td>
-        <td>ante</td>
-        <td> <a href="<?php echo base_url().'Siswa/update' ?>">Update</a> | <a href="<?php echo base_url().'Siswa/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-
+      
     </tbody>
   </table>
 </div>
