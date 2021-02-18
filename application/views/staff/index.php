@@ -18,45 +18,20 @@
     <thead>
       <tr>
         <th>#</th>
-        <th>NIS</th>
+        <th>NIP</th>
         <th>Nama</th>
-        <th>Jurusan</th>
-        <th>Kelas</th>
+        <th>Status</th>
         <th>Action</th>
       </tr>
     </thead>
     <tbody>
+
       <tr>
-        <td>1,001</td>
-        <td>Lorem</td>
-        <td>ipsum</td>
-        <td>dolor</td>
-        <td>sit</td>
-        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-      <tr>
-        <td>1,002</td>
-        <td>amet</td>
-        <td>consectetur</td>
-        <td>adipiscing</td>
-        <td>elit</td>
-        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-      <tr>
-        <td>1,003</td>
-        <td>Integer</td>
-        <td>nec</td>
-        <td>odio</td>
-        <td>Praesent</td>
-        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
-      </tr>
-      <tr>
-        <td>1,003</td>
-        <td>libero</td>
-        <td>Sed</td>
-        <td>cursus</td>
-        <td>ante</td>
-        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
+        <td>1</td>
+        <td>1233333</td>
+        <td>Budi</td>
+        <td>Aktif</td>
+        <td> <a href="<?php echo base_url().'Staff/update' ?>">Update</a> | <a href="<?php echo base_url().'Staff/delete' ?>" onclick="return confirm('Yakin Menghapus Data ini?');"> Delete</a></td>
       </tr>
 
     </tbody>
