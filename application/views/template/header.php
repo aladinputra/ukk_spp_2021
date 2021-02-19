@@ -35,7 +35,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <form  class="form-control-dark w-100" action="<?php echo base_url().'Pembayaran/add' ?>" method="post">
+    <form  class="form-control-dark w-100" action="<?php echo base_url().'Pembayaran/CekSiswa' ?>" method="post">
     <input class="form-control form-control-dark" type="text" placeholder="Masukan NIS" aria-label="Search">
     </form>
 

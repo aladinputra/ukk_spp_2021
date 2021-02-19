@@ -11,26 +11,32 @@ class Pembayaran extends CI_Controller {
 			//redirect(base_url('Welcome/index'));
 			//return;
 		}
-      $data['title'] = 'Dashboard - Pembayaran';
-  		$this->load->view('template/header.php',$data);
+		$data['title'] = 'Dashboard - Pembayaran';
+		$this->load->view('template/header.php',$data);
 	}
 
 	public function index()
 	{
 		$this->load->view('pembayaran/index.php');
-  	$this->load->view('template/footer.php');
+		$this->load->view('template/footer.php');
 	}
 
-  public function add()
-  {
-    $this->load->view('pembayaran/add.php');
-    $this->load->view('template/footer.php');
-  }
+	function CekSiswa(){
+		if($_POST){
+			redirect(base_url().'Pembayaran/add/'.$this->input->post('nis'));
+		}
+	}
 
-  public function update()
-  {
-    $this->load->view('pembayaran/update.php');
-    $this->load->view('template/footer.php');
-  }
+	public function add($nis)
+	{
+		$this->load->view('pembayaran/add.php');
+		$this->load->view('template/footer.php');
+	}
+
+	public function update()
+	{
+		$this->load->view('pembayaran/update.php');
+		$this->load->view('template/footer.php');
+	}
 }
 ?>
