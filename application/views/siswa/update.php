@@ -15,35 +15,34 @@
 
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Nomor Induk Siswa (NIS)</label>
-      <input type="text" name="nis" class="form-control" placeholder="1920031112">
+      <input type="text" name="nis" class="form-control" placeholder="1920031112" required>
     </div>
 
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Nama Lengkap</label>
-      <input type="text" name="nama" class="form-control" placeholder="Budi Sukirman">
+      <input type="text" name="nama" class="form-control" placeholder="Budi Sukirman" required>
     </div>
 
 
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Jenis Kelamin</label>
       <div class="form-check">
-        <input class="form-check-input" value="L" type="radio" name="flexRadioDefault" name="jenkel" id="flexRadioDefault1" checked>
+        <input class="form-check-input" value="L" type="radio" name="jenkel" id="flexRadioDefault1" checked required>
         <label class="form-check-label" for="flexRadioDefault1">
           Laki - Laki
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" value="P" type="radio" name="flexRadioDefault" name="jenkel" id="flexRadioDefault2" >
+        <input class="form-check-input" value="P" type="radio" name="jenkel" id="flexRadioDefault2" required>
         <label class="form-check-label" for="flexRadioDefault2">
           Perempuan
         </label>
       </div>
     </div>
 
-
     <div class="col-4 mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Agama</label>
-      <select class="form-select" name="agama" aria-label="Default select example">
+      <select class="form-select" name="agama" aria-label="Default select example" required>
         <option selected>Pilih Agama</option>
         <option value="Islam">Islam</option>
         <option value="Kristen">Kristen</option>
@@ -55,23 +54,23 @@
 
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Tempat Lahir</label>
-      <input type="text" name="tempat_lahir" class="form-control" placeholder="Tangerang">
+      <input type="text" name="tempat_lahir" class="form-control" placeholder="Tangerang" required>
     </div>
 
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Tanggal Lahir</label>
-      <input type="date" name="tgl_lahir" class="form-control" placeholder="2000/10/10">
+      <input type="date" name="tgl_lahir" class="form-control" placeholder="2000/10/10" required>
     </div>
 
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
     </div>
 
     <div class="col-6 mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Jurusan</label>
-      <select class="form-select" name="jurusan" aria-label="Default select example">
-        <option selected>Pilih Jurusan</option>
+      <select class="form-select" name="jurusan" aria-label="Default select example" required>
+        <option value="" selected>Pilih Jurusan</option>
         <option value="R">Rekayasa Perangkat Lunak</option>
         <option value="J">Teknik Komputer dan Jaringan</option>
       </select>
@@ -79,8 +78,8 @@
 
     <div class="col-6 mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Kelas</label>
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Pilih Kelas</option>
+      <select class="form-select" aria-label="Default select example" name="kelas" required>
+        <option value="" selected>Pilih Kelas</option>
         <option value="10R1">10R1</option>
         <option value="11R1">11R1</option>
         <option value="12R1">12R1</option>
