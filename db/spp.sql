@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.9.1
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 09, 2021 at 03:00 AM
--- Server version: 10.1.16-MariaDB
--- PHP Version: 5.5.38
+-- Generation Time: Feb 19, 2021 at 08:00 AM
+-- Server version: 10.4.8-MariaDB
+-- PHP Version: 7.1.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -56,7 +58,7 @@ CREATE TABLE `siswa` (
   `id_siswa` int(11) NOT NULL,
   `nis` varchar(13) NOT NULL,
   `nama` varchar(25) NOT NULL,
-  `kelas` int(4) NOT NULL,
+  `kelas` varchar(4) NOT NULL,
   `jurusan` varchar(25) NOT NULL,
   `tgl_lahir` date NOT NULL,
   `tempat_lahir` varchar(15) NOT NULL,
@@ -65,6 +67,13 @@ CREATE TABLE `siswa` (
   `agama` varchar(10) NOT NULL,
   `alamat` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `siswa`
+--
+
+INSERT INTO `siswa` (`id_siswa`, `nis`, `nama`, `kelas`, `jurusan`, `tgl_lahir`, `tempat_lahir`, `jenkel`, `no_telp`, `agama`, `alamat`) VALUES
+(1, '1920103332', 'Budi Karyoo', '10R1', 'R', '2000-02-19', 'Tangerang', '', '', 'Islam', '');
 
 -- --------------------------------------------------------
 
@@ -79,6 +88,14 @@ CREATE TABLE `staff` (
   `password` varchar(50) NOT NULL,
   `status` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `staff`
+--
+
+INSERT INTO `staff` (`id_staff`, `nip`, `nama`, `password`, `status`) VALUES
+(1, '99200111', 'Aldian Syahputra', '202cb962ac59075b964b07152d234b70', 1),
+(2, '9920223', 'Budi Aman', '00dfc53ee86af02e742515cdcf075ed3', 1);
 
 -- --------------------------------------------------------
 
@@ -137,26 +154,32 @@ ALTER TABLE `transaksi_pembayaran`
 --
 ALTER TABLE `detail_bayar`
   MODIFY `id_detail_bayar` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `jenis_pembayaran`
 --
 ALTER TABLE `jenis_pembayaran`
   MODIFY `id_pembayaran` int(11) NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `siswa`
 --
 ALTER TABLE `siswa`
-  MODIFY `id_siswa` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_siswa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `staff`
 --
 ALTER TABLE `staff`
-  MODIFY `id_staff` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_staff` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
 --
 -- AUTO_INCREMENT for table `transaksi_pembayaran`
 --
 ALTER TABLE `transaksi_pembayaran`
   MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
