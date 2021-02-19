@@ -63,8 +63,14 @@
     </div>
 
     <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Nomor Telepon</label>
+      <input type="text" name="no_telp" class="form-control" required>
+    </div>
+
+
+    <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Alamat</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name='alamat' required></textarea>
     </div>
 
     <div class="col-6 mb-3">
@@ -92,7 +98,6 @@
     <div class="mb-3">
       <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>
     </div>
-
 
   </div>
 </form>
