@@ -27,25 +27,38 @@
     <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Jenis Kelamin</label>
       <div class="form-check">
-        <input class="form-check-input" value="L" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <input class="form-check-input" value="L" type="radio" name="flexRadioDefault" name="jenkel" id="flexRadioDefault1" checked>
         <label class="form-check-label" for="flexRadioDefault1">
           Laki - Laki
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" value="P" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+        <input class="form-check-input" value="P" type="radio" name="flexRadioDefault" name="jenkel" id="flexRadioDefault2" >
         <label class="form-check-label" for="flexRadioDefault2">
           Perempuan
         </label>
       </div>
     </div>
 
-    <div class="col-md-6 mb-3">
+
+    <div class="col-4 mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Agama</label>
+      <select class="form-select" name="agama" aria-label="Default select example">
+        <option selected>Pilih Agama</option>
+        <option value="Islam">Islam</option>
+        <option value="Kristen">Kristen</option>
+        <option value="Protestan">Protestan</option>
+        <option value="Hindu">Hindu</option>
+        <option value="Budha">Budha</option>
+      </select>
+    </div>
+
+    <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Tempat Lahir</label>
       <input type="text" name="tempat_lahir" class="form-control" placeholder="Tangerang">
     </div>
 
-    <div class="col-md-6 mb-3">
+    <div class="col-md-4 mb-3">
       <label for="exampleFormControlInput1" class="form-label">Tanggal Lahir</label>
       <input type="date" name="tgl_lahir" class="form-control" placeholder="2000/10/10">
     </div>
